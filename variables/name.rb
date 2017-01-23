@@ -9,4 +9,12 @@ puts "Hi #{name.capitalize}, welcome to Ruby programming!"
 greeting = "Hi #{name.capitalize}, welcome to Ruby programming!"
 10.times do 
 	puts greeting 
-end 
+end
+
+
+# Ask the user for their first name & last name separately 
+puts "What is your first name?"
+first_name = gets.chomp.downcase
+puts "What is your last name?"
+last_name = gets.chomp.downcase
+puts "Hi, #{first_name.capitalize} #{last_name.capitalize}!" 
